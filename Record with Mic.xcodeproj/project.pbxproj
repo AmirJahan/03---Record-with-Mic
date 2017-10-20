@@ -13,6 +13,7 @@
 		29C93B6D1F97E46300BB5A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C93B6C1F97E46300BB5A1E /* Assets.xcassets */; };
 		29C93B701F97E46300BB5A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C93B6E1F97E46300BB5A1E /* LaunchScreen.storyboard */; };
 		29C93B731F97E46300BB5A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C93B721F97E46300BB5A1E /* main.m */; };
+		29C93B7B1F97E46E00BB5A1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C93B7A1F97E46E00BB5A1E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		29C93B6F1F97E46300BB5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C93B711F97E46300BB5A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C93B721F97E46300BB5A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29C93B7A1F97E46E00BB5A1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C93B7B1F97E46E00BB5A1E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				29C93B621F97E46300BB5A1E /* Record with Mic */,
 				29C93B611F97E46300BB5A1E /* Products */,
+				29C93B791F97E46D00BB5A1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +73,14 @@
 				29C93B721F97E46300BB5A1E /* main.m */,
 			);
 			path = "Record with Mic";
+			sourceTree = "<group>";
+		};
+		29C93B791F97E46D00BB5A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C93B7A1F97E46E00BB5A1E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
